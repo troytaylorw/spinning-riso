@@ -1,0 +1,31 @@
+.normie{
+	position: fixed;
+	z-index: 23;
+	right: 0px;
+	opacity: 0%;
+	bottom: 0px;
+}
+
+.normie:hover{
+	position: fixed;
+	z-index: 23;
+	right: 0px;
+	opacity: 100%;
+	bottom: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.long{
+	width: 100vw;
+	height:100000px;
+	position: relative;
+	top: -2500px;
+}
+
+.window{
+	width: 100vw;
+	height:auto;
+}

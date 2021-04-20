@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rainbow wheel</title>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/gif" href="favicon.gif">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+	<div class="normie">
+		<img src="assets/wait.gif" style="height: 100px; width: auto" alt="Wait (spinning disk) cursor">
+	</div> 
+
+	<div>
+		<img class="long" src="assets/wait.gif" alt="Wait (spinning disk) cursor">
+	</div> 
+
+	<div>
+		<img class="window" src="assets/wait.gif" alt="Wait (spinning disk) cursor">
+	</div> 
+
+	<h2>
+		<a href="https://developer.apple.com/design/human-interface-guidelines/macos/indicators/progress-indicators/">Progress Indicators</a>
+	</h2>
+
+	<p>
+		Don’t make people sit around staring at a static screen waiting for your app to load content or perform lengthy data processing operations. Use progress indicators to let people know your app hasn't stalled and to give them some idea of how long they’ll be waiting.
+	</p>
+
+	<h3>
+		Indeterminate Progress Indicators
+	</h3>
+
+	<p>
+		Use an indeterminate progress indicator when your app performs an unquantifiable task, such as loading or synchronizing complex data. These indicators appear as an animated bar or circular spinner that disappears when the task completes.
+	</p>
+
+	<p>
+		<i>Spinning progress indicator</i>
+		<br>
+		<br>
+		<strong>Use a spinning progress indicator primarily to communicate the status of a background operation or when space is constrained.</strong> Spinners are small and unobtrusive, so they’re useful for asynchronous background tasks, like retrieving messages from a server. Spinners are also useful for communicating progress within a small area, such as within a text field or next to a specific control, such as a button.
+		<br>
+		<br>
+		<strong>When possible, switch from an indeterminate progress bar to a determinate progress bar.</strong> If an indeterminate process reaches a point where its duration can be determined, switch to a determinate progress bar. People generally prefer a determinate progress indicator, because it helps them gauge what’s happening and how long it will take.
+		<br>
+		<br>
+		<strong>Don’t transition from a spinner to a progress bar.</strong> Spinners and progress bars are different shapes and sizes, so it doesn’t make sense to transition from one to the other.
+		<br>
+		<br>
+		<strong>Keep indeterminate progress indicators moving so people know something is happening.</strong> People associate a stationary indicator with a stalled process or a frozen app. If a process has stalled for some reason, provide users with feedback that helps them understand the problem and what they can do about it.
+		<br>
+		<br>
+		<strong>Spinning progress indicators should not be labeled.</strong> Because a spinner typically appears when the user initiates a process, a label is unnecessary.
+	</p>
+
+</body>
+</html>
